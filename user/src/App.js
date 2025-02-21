@@ -23,9 +23,10 @@ const App = () => {
         <div>
         <h1>Micro Frontend 2</h1>
         <Suspense fallback={<div>Loading Button...</div>}>
-          <Button>Click Me</Button>
+          <Button onClick={()=>alert("afsdf")}>Click Me</Button>
         </Suspense>      
         </div>
+        <button onClick={()=>alert()} > click measdf d</button>
 
         <Routes>
           <Route path="/" element={<HomePage />} />
